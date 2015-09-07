@@ -2,9 +2,7 @@
 @import "neat/neat";
 @import "base";
 
-@media screen and (max-width: 750px) {
-  @import "layout_mobile";
-}
+@import "layout_mobile";
 
 @media screen and (min-width: 750px) {
   @import "layout_desktop";

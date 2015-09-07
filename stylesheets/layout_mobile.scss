@@ -1,0 +1,36 @@
+.title {
+  text-align: center;
+  margin-bottom: 35px;
+  h1 {
+    text-align: center;
+    font-size: 31px;
+  }
+  .circle {
+    display: block;
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -110px;
+    background-color: $lightblue;
+  }
+}
+
+.stories {
+  margin-top: -145px;
+  text-align: center;
+  width: 100%;
+  img {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}
+.ad {
+  text-align: center;
+  img {
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+  }
+}
