@@ -101,17 +101,17 @@ h1 {
       position: absolute;
       margin-top: -275px; }
       .stories .left-stories .s1 img {
-        margin-left: 10%;
+        margin-left: 21%;
         margin-top: 250px;
         height: 510px;
         width: 560px; }
       .stories .left-stories .s4 img {
-        margin-left: 52%;
+        margin-left: 63.5%;
         margin-top: 10px;
         height: 210px;
         width: 260px; }
       .stories .left-stories .s5 img {
-        margin-left: 10%;
+        margin-left: 21%;
         margin-top: 10px;
         height: 510px;
         width: 560px; }
@@ -122,21 +122,26 @@ h1 {
       float: right;
       margin-top: -275px; }
       .stories .right-stories .s2 img {
-        margin-left: -32%;
+        margin-left: -61%;
         margin-top: 450px;
         height: 210px;
         width: 260px; }
       .stories .right-stories .s3 img {
-        margin-left: 10%;
+        margin-left: -19%;
         margin-top: 10px;
         height: 510px;
         width: 560px; }
 
   .ad {
+    /*  position: relative;*/
     text-align: center; }
     .ad img {
-      width: 300px;
-      height: 200px;
-      margin: 20px; } }
+      position: absolute;
+      float: right;
+      top: -120px;
+      left: 1071px;
+      width: 340px;
+      height: 240px;
+      border: 20px solid white; } }
 
 /*# sourceMappingURL=style.css.map */
