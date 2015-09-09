@@ -52,6 +52,7 @@ h1 {
   .stories .left-stories .s1 .numbers {
     position: absolute;
     top: 0;
+    margin-right: 0;
     left: 82.4%;
     height: 45px;
     width: 45px;
@@ -221,6 +222,7 @@ h1 {
         position: absolute;
         top: 449px;
         right: 93.1%;
+        left: 3;
         height: 45px;
         width: 45px;
         background-color: white; }
@@ -238,6 +240,7 @@ h1 {
         position: absolute;
         top: 680px;
         right: 93.1%;
+        left: 3;
         height: 45px;
         width: 45px;
         background-color: white; }
