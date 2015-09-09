@@ -41,86 +41,56 @@
   z-index: 2;
   .left-stories {
     .s1 {
-      .numbers {
+      .numbered-square {
         position: absolute;
         top: 0;
         margin-right:0;
-        left: 82.4%;
-        height: 45px;
-        width: 45px;
+        left: 81.2%;
+        height: 50px;
+        width: 50px;
         background-color: white;
-        p {
-          margin-top: 10px;
-          font-family: $font;
-          font-weight: 400;
-          font-size: modular-scale(1);
-        }
       }
     }
     .s4 {
-      .numbers {
+      .numbered-square {
         position: absolute;
         top: 170px;
-        left: 82.4%;
-        height: 45px;
-        width: 45px;
+        left: 81.2%;
+        height: 50px;
+        width: 50px;
         background-color: white;
-        p {
-          margin-top: 10px;
-          font-family: $font;
-          font-weight: 400;
-          font-size: modular-scale(1);
-        }
       }
     }
     .s5 {
-      .numbers {
+      .numbered-square {
         position: absolute;
         top: 340px;
-        left: 82.4%;
-        height: 45px;
-        width: 45px;
+        left: 81.2%;
+        height: 50px;
+        width: 50px;
         background-color: white;
-        p {
-          margin-top: 10px;
-          font-family: $font;
-          font-weight: 400;
-          font-size: modular-scale(1);
-        }
       }
     }
   }
   .right-stories {
     .s2 {
-      .numbers {
+      .numbered-square {
         position: absolute;
         top: 510px;
-        left: 82.4%;
-        height: 45px;
-        width: 45px;
+        left: 81.2%;
+        height: 50px;
+        width: 50px;
         background-color: white;
-        p {
-          margin-top: 10px;
-          font-family: $font;
-          font-weight: 400;
-          font-size: modular-scale(1);
-        }
       }
     }
     .s3 {
-      .numbers {
+      .numbered-square {
         position: absolute;
         top: 680px;
-        left: 82.4%;
-        height: 45px;
-        width: 45px;
+        left: 81.2%;
+        height: 50px;
+        width: 50px;
         background-color: white;
-        p {
-          margin-top: 10px;
-          font-family: $font;
-          font-weight: 400;
-          font-size: modular-scale(1);
-        }
       }
     }
   }

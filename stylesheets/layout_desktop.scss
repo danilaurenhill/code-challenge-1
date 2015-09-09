@@ -1,3 +1,4 @@
+/*title and circle must move as one unit*/
 .title {
   h1 {
     text-align: center;
@@ -15,6 +16,8 @@
     background-color: $lightblue;
   }
 }
+/*content is yellow parallelogram
+must be behind the stories(use z-index)*/
 .content {
   position: relative;
   .parallelogram { 
@@ -32,6 +35,11 @@
     z-index: 1;
   }
 }
+/*stories - width: 100%*/
+/*1,4,5 on left - width 50%*/
+/*2,3 on right - width 50%*/
+/*ad inside stories and floated right with a white border*/
+/*2 sizes for stories*/
 .stories {
   width: 100%;
   position: relative;
@@ -42,19 +50,13 @@
     position: absolute;
     margin-top: -275px;
     .s1 {
-      .numbers {
+      .numbered-square {
         position: absolute;
         top: 250px;
-        left: 93.4%;
-        height: 45px;
-        width: 45px;
+        left: 92.65%;
+        height: 50px;
+        width: 50px;
         background-color: white;
-        p {
-          margin-top: 10px;
-          font-family: $font;
-          font-weight: 400;
-          font-size: modular-scale(1);
-        }
       }
       img {
         margin-left: 21%;
@@ -64,19 +66,13 @@
       }
     }
     .s4 {
-      .numbers {
+      .numbered-square {
         position: absolute;
         top: 780px;
-        left: 93.7%;
-        height: 45px;
-        width: 45px;
+        left: 92.95%;
+        height: 50px;
+        width: 50px;
         background-color: white;
-        p {
-          margin-top: 10px;
-          font-family: $font;
-          font-weight: 400;
-          font-size: modular-scale(1);
-        }
       }
       img {
         margin-left: 63.5%;
@@ -86,19 +82,13 @@
       }
     }
     .s5 {
-      .numbers {
+      .numbered-square {
         position: absolute;
         top: 1010px;
-        left: 93.4%;
-        height: 45px;
-        width: 45px;
+        left: 92.65%;
+        height: 50px;
+        width: 50px;
         background-color: white;
-        p {
-          margin-top: 10px;
-          font-family: $font;
-          font-weight: 400;
-          font-size: modular-scale(1);
-        }
       }
       img {
         margin-left: 21%;
@@ -115,20 +105,14 @@
     float: right;
     margin-top: -275px;
     .s2 {
-      .numbers {
+      .numbered-square {
         position: absolute;
         top: 449px;
         right: 93.1%;
         left: 3;
-        height: 45px;
-        width: 45px;
+        height: 50px;
+        width: 50px;
         background-color: white;
-        p {
-          margin-top: 10px;
-          font-family: $font;
-          font-weight: 400;
-          font-size: modular-scale(1);
-        }
       }
       img {
         margin-left: -61%;
@@ -138,20 +122,14 @@
       }
     }
     .s3 {
-      .numbers {
+      .numbered-square {
         position: absolute;
         top: 680px;
         right: 93.1%;
         left: 3;
-        height: 45px;
-        width: 45px;
+        height: 50px;
+        width: 50px;
         background-color: white;
-        p {
-          margin-top: 10px;
-          font-family: $font;
-          font-weight: 400;
-          font-size: modular-scale(1);
-        }
       }
       img{
         margin-left: -19%;
@@ -162,7 +140,7 @@
     }
   }
   .ad {
-    text-align: center;
+    float:right;
     img {
       position: absolute;
       float: right;

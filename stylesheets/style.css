@@ -11,6 +11,18 @@ h1 {
   text-transform: uppercase;
   width: 100%; }
 
+h2 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 44px; }
+
+p {
+  margin-top: 8px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 30px; }
+
 .title {
   text-align: center;
   margin-bottom: 35px; }
@@ -49,67 +61,42 @@ h1 {
   text-align: center;
   width: 100%;
   z-index: 2; }
-  .stories .left-stories .s1 .numbers {
+  .stories .left-stories .s1 .numbered-square {
     position: absolute;
     top: 0;
     margin-right: 0;
-    left: 82.4%;
-    height: 45px;
-    width: 45px;
+    left: 81.2%;
+    height: 50px;
+    width: 50px;
     background-color: white; }
-    .stories .left-stories .s1 .numbers p {
-      margin-top: 10px;
-      font-family: Helvetica, Arial, sans-serif;
-      font-weight: 400;
-      font-size: 1.333em; }
-  .stories .left-stories .s4 .numbers {
+  .stories .left-stories .s4 .numbered-square {
     position: absolute;
     top: 170px;
-    left: 82.4%;
-    height: 45px;
-    width: 45px;
+    left: 81.2%;
+    height: 50px;
+    width: 50px;
     background-color: white; }
-    .stories .left-stories .s4 .numbers p {
-      margin-top: 10px;
-      font-family: Helvetica, Arial, sans-serif;
-      font-weight: 400;
-      font-size: 1.333em; }
-  .stories .left-stories .s5 .numbers {
+  .stories .left-stories .s5 .numbered-square {
     position: absolute;
     top: 340px;
-    left: 82.4%;
-    height: 45px;
-    width: 45px;
+    left: 81.2%;
+    height: 50px;
+    width: 50px;
     background-color: white; }
-    .stories .left-stories .s5 .numbers p {
-      margin-top: 10px;
-      font-family: Helvetica, Arial, sans-serif;
-      font-weight: 400;
-      font-size: 1.333em; }
-  .stories .right-stories .s2 .numbers {
+  .stories .right-stories .s2 .numbered-square {
     position: absolute;
     top: 510px;
-    left: 82.4%;
-    height: 45px;
-    width: 45px;
+    left: 81.2%;
+    height: 50px;
+    width: 50px;
     background-color: white; }
-    .stories .right-stories .s2 .numbers p {
-      margin-top: 10px;
-      font-family: Helvetica, Arial, sans-serif;
-      font-weight: 400;
-      font-size: 1.333em; }
-  .stories .right-stories .s3 .numbers {
+  .stories .right-stories .s3 .numbered-square {
     position: absolute;
     top: 680px;
-    left: 82.4%;
-    height: 45px;
-    width: 45px;
+    left: 81.2%;
+    height: 50px;
+    width: 50px;
     background-color: white; }
-    .stories .right-stories .s3 .numbers p {
-      margin-top: 10px;
-      font-family: Helvetica, Arial, sans-serif;
-      font-weight: 400;
-      font-size: 1.333em; }
   .stories img {
     margin-right: 10px;
     margin-bottom: 10px; }
@@ -122,6 +109,7 @@ h1 {
     margin: 20px; }
 
 @media screen and (min-width: 750px) {
+  /*title and circle must move as one unit*/
   .title h1 {
     text-align: center;
     font-size: 51px;
@@ -136,6 +124,8 @@ h1 {
     margin-top: -190px;
     background-color: #c8d5dd; }
 
+  /*content is yellow parallelogram
+  must be behind the stories(use z-index)*/
   .content {
     position: relative; }
     .content .parallelogram {
@@ -152,6 +142,11 @@ h1 {
       background-color: #fee900;
       z-index: 1; }
 
+  /*stories - width: 100%*/
+  /*1,4,5 on left - width 50%*/
+  /*2,3 on right - width 50%*/
+  /*ad inside stories and floated right with a white border*/
+  /*2 sizes for stories*/
   .stories {
     width: 100%;
     position: relative;
@@ -161,52 +156,37 @@ h1 {
       float: left;
       position: absolute;
       margin-top: -275px; }
-      .stories .left-stories .s1 .numbers {
+      .stories .left-stories .s1 .numbered-square {
         position: absolute;
         top: 250px;
-        left: 93.4%;
-        height: 45px;
-        width: 45px;
+        left: 92.65%;
+        height: 50px;
+        width: 50px;
         background-color: white; }
-        .stories .left-stories .s1 .numbers p {
-          margin-top: 10px;
-          font-family: Helvetica, Arial, sans-serif;
-          font-weight: 400;
-          font-size: 1.333em; }
       .stories .left-stories .s1 img {
         margin-left: 21%;
         margin-top: 250px;
         height: 510px;
         width: 560px; }
-      .stories .left-stories .s4 .numbers {
+      .stories .left-stories .s4 .numbered-square {
         position: absolute;
         top: 780px;
-        left: 93.7%;
-        height: 45px;
-        width: 45px;
+        left: 92.95%;
+        height: 50px;
+        width: 50px;
         background-color: white; }
-        .stories .left-stories .s4 .numbers p {
-          margin-top: 10px;
-          font-family: Helvetica, Arial, sans-serif;
-          font-weight: 400;
-          font-size: 1.333em; }
       .stories .left-stories .s4 img {
         margin-left: 63.5%;
         margin-top: 10px;
         height: 210px;
         width: 260px; }
-      .stories .left-stories .s5 .numbers {
+      .stories .left-stories .s5 .numbered-square {
         position: absolute;
         top: 1010px;
-        left: 93.4%;
-        height: 45px;
-        width: 45px;
+        left: 92.65%;
+        height: 50px;
+        width: 50px;
         background-color: white; }
-        .stories .left-stories .s5 .numbers p {
-          margin-top: 10px;
-          font-family: Helvetica, Arial, sans-serif;
-          font-weight: 400;
-          font-size: 1.333em; }
       .stories .left-stories .s5 img {
         margin-left: 21%;
         margin-top: 10px;
@@ -218,44 +198,34 @@ h1 {
       width: 50%;
       float: right;
       margin-top: -275px; }
-      .stories .right-stories .s2 .numbers {
+      .stories .right-stories .s2 .numbered-square {
         position: absolute;
         top: 449px;
         right: 93.1%;
         left: 3;
-        height: 45px;
-        width: 45px;
+        height: 50px;
+        width: 50px;
         background-color: white; }
-        .stories .right-stories .s2 .numbers p {
-          margin-top: 10px;
-          font-family: Helvetica, Arial, sans-serif;
-          font-weight: 400;
-          font-size: 1.333em; }
       .stories .right-stories .s2 img {
         margin-left: -61%;
         margin-top: 450px;
         height: 210px;
         width: 260px; }
-      .stories .right-stories .s3 .numbers {
+      .stories .right-stories .s3 .numbered-square {
         position: absolute;
         top: 680px;
         right: 93.1%;
         left: 3;
-        height: 45px;
-        width: 45px;
+        height: 50px;
+        width: 50px;
         background-color: white; }
-        .stories .right-stories .s3 .numbers p {
-          margin-top: 10px;
-          font-family: Helvetica, Arial, sans-serif;
-          font-weight: 400;
-          font-size: 1.333em; }
       .stories .right-stories .s3 img {
         margin-left: -19%;
         margin-top: 10px;
         height: 510px;
         width: 560px; }
     .stories .ad {
-      text-align: center; }
+      float: right; }
       .stories .ad img {
         position: absolute;
         float: right;
