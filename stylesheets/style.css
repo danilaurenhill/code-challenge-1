@@ -61,6 +61,54 @@ h1 {
       font-family: Helvetica, Arial, sans-serif;
       font-weight: 400;
       font-size: 1.333em; }
+  .stories .left-stories .s4 .numbers {
+    position: absolute;
+    top: 170px;
+    left: 82.4%;
+    height: 45px;
+    width: 45px;
+    background-color: white; }
+    .stories .left-stories .s4 .numbers p {
+      margin-top: 10px;
+      font-family: Helvetica, Arial, sans-serif;
+      font-weight: 400;
+      font-size: 1.333em; }
+  .stories .left-stories .s5 .numbers {
+    position: absolute;
+    top: 340px;
+    left: 82.4%;
+    height: 45px;
+    width: 45px;
+    background-color: white; }
+    .stories .left-stories .s5 .numbers p {
+      margin-top: 10px;
+      font-family: Helvetica, Arial, sans-serif;
+      font-weight: 400;
+      font-size: 1.333em; }
+  .stories .right-stories .s2 .numbers {
+    position: absolute;
+    top: 510px;
+    left: 82.4%;
+    height: 45px;
+    width: 45px;
+    background-color: white; }
+    .stories .right-stories .s2 .numbers p {
+      margin-top: 10px;
+      font-family: Helvetica, Arial, sans-serif;
+      font-weight: 400;
+      font-size: 1.333em; }
+  .stories .right-stories .s3 .numbers {
+    position: absolute;
+    top: 680px;
+    left: 82.4%;
+    height: 45px;
+    width: 45px;
+    background-color: white; }
+    .stories .right-stories .s3 .numbers p {
+      margin-top: 10px;
+      font-family: Helvetica, Arial, sans-serif;
+      font-weight: 400;
+      font-size: 1.333em; }
   .stories img {
     margin-right: 10px;
     margin-bottom: 10px; }
@@ -112,14 +160,9 @@ h1 {
       float: left;
       position: absolute;
       margin-top: -275px; }
-      .stories .left-stories .s1 img {
-        margin-left: 21%;
-        margin-top: 250px;
-        height: 510px;
-        width: 560px; }
       .stories .left-stories .s1 .numbers {
         position: absolute;
-        top: 250;
+        top: 250px;
         left: 93.4%;
         height: 45px;
         width: 45px;
@@ -129,11 +172,40 @@ h1 {
           font-family: Helvetica, Arial, sans-serif;
           font-weight: 400;
           font-size: 1.333em; }
+      .stories .left-stories .s1 img {
+        margin-left: 21%;
+        margin-top: 250px;
+        height: 510px;
+        width: 560px; }
+      .stories .left-stories .s4 .numbers {
+        position: absolute;
+        top: 780px;
+        left: 93.7%;
+        height: 45px;
+        width: 45px;
+        background-color: white; }
+        .stories .left-stories .s4 .numbers p {
+          margin-top: 10px;
+          font-family: Helvetica, Arial, sans-serif;
+          font-weight: 400;
+          font-size: 1.333em; }
       .stories .left-stories .s4 img {
         margin-left: 63.5%;
         margin-top: 10px;
         height: 210px;
         width: 260px; }
+      .stories .left-stories .s5 .numbers {
+        position: absolute;
+        top: 1010px;
+        left: 93.4%;
+        height: 45px;
+        width: 45px;
+        background-color: white; }
+        .stories .left-stories .s5 .numbers p {
+          margin-top: 10px;
+          font-family: Helvetica, Arial, sans-serif;
+          font-weight: 400;
+          font-size: 1.333em; }
       .stories .left-stories .s5 img {
         margin-left: 21%;
         margin-top: 10px;
@@ -145,26 +217,49 @@ h1 {
       width: 50%;
       float: right;
       margin-top: -275px; }
+      .stories .right-stories .s2 .numbers {
+        position: absolute;
+        top: 449px;
+        right: 93.1%;
+        height: 45px;
+        width: 45px;
+        background-color: white; }
+        .stories .right-stories .s2 .numbers p {
+          margin-top: 10px;
+          font-family: Helvetica, Arial, sans-serif;
+          font-weight: 400;
+          font-size: 1.333em; }
       .stories .right-stories .s2 img {
         margin-left: -61%;
         margin-top: 450px;
         height: 210px;
         width: 260px; }
+      .stories .right-stories .s3 .numbers {
+        position: absolute;
+        top: 680px;
+        right: 93.1%;
+        height: 45px;
+        width: 45px;
+        background-color: white; }
+        .stories .right-stories .s3 .numbers p {
+          margin-top: 10px;
+          font-family: Helvetica, Arial, sans-serif;
+          font-weight: 400;
+          font-size: 1.333em; }
       .stories .right-stories .s3 img {
         margin-left: -19%;
         margin-top: 10px;
         height: 510px;
         width: 560px; }
-
-  .ad {
-    text-align: center; }
-    .ad img {
-      position: absolute;
-      float: right;
-      top: -120px;
-      left: 1071px;
-      width: 340px;
-      height: 240px;
-      border: 20px solid white; } }
+    .stories .ad {
+      text-align: center; }
+      .stories .ad img {
+        position: absolute;
+        float: right;
+        top: -120px;
+        left: 1071px;
+        width: 340px;
+        height: 240px;
+        border: 20px solid white; } }
 
 /*# sourceMappingURL=style.css.map */

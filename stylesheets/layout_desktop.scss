@@ -42,15 +42,9 @@
     position: absolute;
     margin-top: -275px;
     .s1 {
-      img {
-        margin-left: 21%;
-        margin-top: 250px;
-        height: 510px;
-        width: 560px;
-      }
       .numbers {
         position: absolute;
-        top: 250;
+        top: 250px;
         left: 93.4%;
         height: 45px;
         width: 45px;
@@ -62,18 +56,56 @@
           font-size: modular-scale(1);
         }
       }
+      img {
+        margin-left: 21%;
+        margin-top: 250px;
+        height: 510px;
+        width: 560px;
+      }
     }
-    .s4 img {
-      margin-left: 63.5%;
-      margin-top: 10px;
-      height: 210px;
-      width: 260px;
+    .s4 {
+      .numbers {
+        position: absolute;
+        top: 780px;
+        left: 93.7%;
+        height: 45px;
+        width: 45px;
+        background-color: white;
+        p {
+          margin-top: 10px;
+          font-family: $font;
+          font-weight: 400;
+          font-size: modular-scale(1);
+        }
+      }
+      img {
+        margin-left: 63.5%;
+        margin-top: 10px;
+        height: 210px;
+        width: 260px;
+      }
     }
-    .s5 img {
-      margin-left: 21%;
-      margin-top: 10px;
-      height: 510px;
-      width: 560px;
+    .s5 {
+      .numbers {
+        position: absolute;
+        top: 1010px;
+        left: 93.4%;
+        height: 45px;
+        width: 45px;
+        background-color: white;
+        p {
+          margin-top: 10px;
+          font-family: $font;
+          font-weight: 400;
+          font-size: modular-scale(1);
+        }
+      }
+      img {
+        margin-left: 21%;
+        margin-top: 10px;
+        height: 510px;
+        width: 560px;
+      }
     }
   }
   .right-stories {
@@ -82,29 +114,61 @@
     width: 50%;
     float: right;
     margin-top: -275px;
-    .s2 img{
-      margin-left: -61%;
-      margin-top: 450px;
-      height: 210px;
-      width: 260px;
+    .s2 {
+      .numbers {
+        position: absolute;
+        top: 449px;
+        right: 93.1%;
+        height: 45px;
+        width: 45px;
+        background-color: white;
+        p {
+          margin-top: 10px;
+          font-family: $font;
+          font-weight: 400;
+          font-size: modular-scale(1);
+        }
+      }
+      img {
+        margin-left: -61%;
+        margin-top: 450px;
+        height: 210px;
+        width: 260px;
+      }
     }
-    .s3 img{
-      margin-left: -19%;
-      margin-top: 10px;
-      height: 510px;
-      width: 560px;
+    .s3 {
+      .numbers {
+        position: absolute;
+        top: 680px;
+        right: 93.1%;
+        height: 45px;
+        width: 45px;
+        background-color: white;
+        p {
+          margin-top: 10px;
+          font-family: $font;
+          font-weight: 400;
+          font-size: modular-scale(1);
+        }
+      }
+      img{
+        margin-left: -19%;
+        margin-top: 10px;
+        height: 510px;
+        width: 560px;
+      }
     }
   }
-}
-.ad {
-  text-align: center;
-  img {
-    position: absolute;
-    float: right;
-    top: -120px;
-    left: 1071px;
-    width: 340px;
-    height: 240px;
-    border:20px solid white;
+  .ad {
+    text-align: center;
+    img {
+      position: absolute;
+      float: right;
+      top: -120px;
+      left: 1071px;
+      width: 340px;
+      height: 240px;
+      border:20px solid white;
+    }
   }
 }
