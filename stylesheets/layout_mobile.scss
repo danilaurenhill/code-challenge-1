@@ -20,8 +20,8 @@
   position: relative;
   .parallelogram { 
     position: absolute;
-    top: 80px;
-    width: 100%;
+    top: 170px;
+    width: 15%;
     height: 500px;
     -webkit-transform: skew(20deg);
     -moz-transform: skew(20deg);
@@ -39,6 +39,24 @@
   text-align: center;
   width: 100%;
   z-index: 2;
+  .left-stories {
+    .s1 {
+      .numbers {
+        position: absolute;
+        top: 0;
+        left: 82.4%;
+        height: 45px;
+        width: 45px;
+        background-color: white;
+        p {
+          margin-top: 10px;
+          font-family: $font;
+          font-weight: 400;
+          font-size: modular-scale(1);
+        }
+      }
+    }
+  }
   img {
     margin-right: 10px;
     margin-bottom: 10px;
