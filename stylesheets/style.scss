@@ -3,8 +3,9 @@
 @import "base";
 
 @import "layout_mobile";
-@import "image-title";
+@import "image-title-mobile";
 
 @media screen and (min-width: 750px) {
   @import "layout_desktop";
+  @import "image-title-desktop";
 }

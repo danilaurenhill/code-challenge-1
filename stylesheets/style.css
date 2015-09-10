@@ -17,10 +17,21 @@ h2 {
   text-transform: uppercase;
   font-size: 44px; }
 
+h3 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: white;
+  padding: 5px;
+  background-color: black;
+  height: 57px;
+  width: 220px; }
+
 p {
   margin-top: 8px;
   font-family: Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  font-weight: light;
   font-size: 30px; }
 
 .title {
@@ -65,24 +76,33 @@ p {
     position: absolute;
     top: 0;
     margin-right: 0;
-    left: 81.2%;
+    left: 71.2%;
     height: 50px;
     width: 50px;
     background-color: white; }
+  .stories .left-stories .s1 img {
+    height: 210px;
+    width: 280px; }
   .stories .left-stories .s4 .numbered-square {
     position: absolute;
-    top: 170px;
-    left: 81.2%;
+    top: 0px;
+    left: 71.2%;
     height: 50px;
     width: 50px;
     background-color: white; }
+  .stories .left-stories .s4 img {
+    height: 210px;
+    width: 280px; }
   .stories .left-stories .s5 .numbered-square {
     position: absolute;
-    top: 340px;
-    left: 81.2%;
+    top: 0px;
+    left: 71.2%;
     height: 50px;
     width: 50px;
     background-color: white; }
+  .stories .left-stories .s5 img {
+    height: 210px;
+    width: 280px; }
   .stories .right-stories .s2 .numbered-square {
     position: absolute;
     top: 510px;
@@ -107,6 +127,45 @@ p {
     width: 300px;
     height: 200px;
     margin: 20px; }
+
+.s1 {
+  position: relative; }
+  .s1 img {
+    opacity: 0.4;
+    filter: alpha(opacity=40); }
+  .s1 img:hover {
+    opacity: 1; }
+  .s1 h2 {
+    position: absolute;
+    top: 55px;
+    left: 89px;
+    font-size: 20px; }
+
+.s4 {
+  position: relative; }
+  .s4 img {
+    opacity: 1;
+    filter: alpha(opacity=40); }
+  .s4 img:hover {
+    opacity: 0.4; }
+  .s4 h3 {
+    position: absolute;
+    top: 55px;
+    left: 89px;
+    font-size: 18px; }
+
+.s5 {
+  position: relative; }
+  .s5 img {
+    opacity: 0.4;
+    filter: alpha(opacity=40); }
+  .s5 img:hover {
+    opacity: 1; }
+  .s5 h2 {
+    position: absolute;
+    top: 55px;
+    left: 89px;
+    font-size: 20px; }
 
 @media screen and (min-width: 750px) {
   /*title and circle must move as one unit*/
@@ -170,19 +229,19 @@ p {
         width: 560px; }
       .stories .left-stories .s4 .numbered-square {
         position: absolute;
-        top: 780px;
+        top: 10px;
         left: 92.95%;
         height: 50px;
         width: 50px;
         background-color: white; }
       .stories .left-stories .s4 img {
-        margin-left: 63.5%;
+        margin-left: 58.5%;
         margin-top: 10px;
         height: 210px;
-        width: 260px; }
+        width: 295px; }
       .stories .left-stories .s5 .numbered-square {
         position: absolute;
-        top: 1010px;
+        top: 10px;
         left: 92.65%;
         height: 50px;
         width: 50px;
@@ -233,6 +292,42 @@ p {
         left: 1071px;
         width: 340px;
         height: 240px;
-        border: 20px solid white; } }
+        border: 20px solid white; }
+
+  .s1 {
+    position: relative; }
+    .s1 img {
+      opacity: 0.4; }
+    .s1 img:hover {
+      opacity: 1; }
+    .s1 h2 {
+      position: absolute;
+      top: 360px;
+      left: 195px;
+      font-size: 44px; }
+
+  .s4 {
+    position: relative; }
+    .s4 img {
+      opacity: 1; }
+    .s4 img:hover {
+      opacity: 0.4; }
+    .s4 h3 {
+      position: absolute;
+      top: 50px;
+      left: 465px; }
+
+  .s5 {
+    position: relative; }
+    .s5 img {
+      opacity: 0.4;
+      filter: alpha(opacity=40); }
+    .s5 img:hover {
+      opacity: 1; }
+    .s5 h2 {
+      position: absolute;
+      top: 85px;
+      left: 220px;
+      font-size: 44px; } }
 
 /*# sourceMappingURL=style.css.map */

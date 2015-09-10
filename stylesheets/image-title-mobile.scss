@@ -1,0 +1,48 @@
+.s1 {
+  position: relative;
+  img {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+  }
+  img:hover {
+    opacity: 1;
+  }
+  h2 {
+    position: absolute;
+    top: 55px;
+    left: 89px;
+    font-size: 20px;
+  }
+}
+.s4 {
+  position: relative;
+  img {
+    opacity: 1;
+    filter: alpha(opacity=40);
+  }
+  img:hover {
+    opacity: 0.4;
+  }
+  h3 {
+    position: absolute;
+    top: 55px;
+    left: 89px;
+    font-size: 18px;
+  }
+}
+.s5 {
+  position: relative;
+  img {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+  }
+  img:hover {
+    opacity: 1;
+  }
+  h2 {
+    position: absolute;
+    top: 55px;
+    left: 89px;
+    font-size: 20px;
+  }
+}
