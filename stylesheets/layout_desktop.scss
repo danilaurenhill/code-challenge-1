@@ -51,6 +51,8 @@ must be behind the stories(use z-index)*/
     margin-top: -275px;
     .s1 {
       .numbered-square {
+        /*make numbered-square show white above the transparent image*/
+        z-index: 4;
         position: absolute;
         top: 250px;
         left: 92.65%;
@@ -67,6 +69,7 @@ must be behind the stories(use z-index)*/
     }
     .s4 {
       .numbered-square {
+        z-index: 4;
         position: absolute;
         top: 10px;
         left: 92.95%;
@@ -83,6 +86,7 @@ must be behind the stories(use z-index)*/
     }
     .s5 {
       .numbered-square {
+        z-index: 4;
         position: absolute;
         top: 10px;
         left: 92.65%;
@@ -106,6 +110,7 @@ must be behind the stories(use z-index)*/
     margin-top: -275px;
     .s2 {
       .numbered-square {
+        z-index: 4;
         position: absolute;
         top: 449px;
         right: 93.1%;
@@ -123,10 +128,11 @@ must be behind the stories(use z-index)*/
     }
     .s3 {
       .numbered-square {
+        z-index: 4;
         position: absolute;
-        top: 680px;
+        top: 10px;
         right: 93.1%;
-        left: 3;
+        left: 3.5;
         height: 50px;
         width: 50px;
         background-color: white;

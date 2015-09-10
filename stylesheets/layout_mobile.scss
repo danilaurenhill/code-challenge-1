@@ -41,11 +41,14 @@
   z-index: 2;
   .left-stories {
     .s1 {
+      /*nb - fix absolute positioning, allow for movement of numbered-square*/
       .numbered-square {
+        z-index: 4;
         position: absolute;
         top: 0;
         margin-right:0;
         left: 71.2%;
+        right: 40%;
         height: 50px;
         width: 50px;
         background-color: white;
@@ -57,6 +60,7 @@
     }
     .s4 {
       .numbered-square {
+        z-index: 4;
         position: absolute;
         top: 0px;
         left: 71.2%;
@@ -71,6 +75,7 @@
     }
     .s5 {
       .numbered-square {
+        z-index: 4;
         position: absolute;
         top: 0px;
         left: 71.2%;
@@ -87,22 +92,32 @@
   .right-stories {
     .s2 {
       .numbered-square {
+        z-index: 4;
         position: absolute;
-        top: 510px;
-        left: 81.2%;
+        top: 720px;
+        left: 71.2%;
         height: 50px;
         width: 50px;
         background-color: white;
       }
+      img {
+        height: 210px;
+        width: 280px;
+      }
     }
     .s3 {
       .numbered-square {
+        z-index: 4;
         position: absolute;
-        top: 680px;
-        left: 81.2%;
+        top: 0px;
+        left: 71.2%;
         height: 50px;
         width: 50px;
         background-color: white;
+      }
+      img {
+        height: 210px;
+        width: 280px;
       }
     }
   }
