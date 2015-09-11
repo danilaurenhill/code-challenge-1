@@ -214,7 +214,8 @@ p {
     margin-top: -155px;
     margin-bottom: 80px;
     text-align: center;
-    font-size: 20px; }
+    font-size: 20px;
+    z-index: 5; }
 
 .s4 {
   position: relative; }
@@ -328,11 +329,13 @@ p {
       .stories .left-stories .s1 .white {
         position: absolute;
         margin-left: 21%;
+        margin-right: 0;
         margin-top: 250px;
         height: 510px;
         width: 560px;
         background-color: white; }
       .stories .left-stories .s1 img {
+        margin-right: 0;
         margin-left: 21%;
         margin-top: 250px;
         height: 510px;
@@ -340,33 +343,45 @@ p {
       .stories .left-stories .s4 .numbered-square {
         z-index: 4;
         position: absolute;
-        top: 10px;
-        left: 93.09%;
+        top: 0px;
+        left: 92.9%;
         height: 50px;
         width: 50px;
         background-color: white; }
-      .stories .left-stories .s4 img {
-        margin-left: 58.5%;
+      .stories .left-stories .s4 .white {
+        position: static;
+        margin-left: 58.2%;
+        margin-right: 0;
         margin-top: 10px;
+        height: 210px;
+        width: 295px;
+        background-color: white; }
+      .stories .left-stories .s4 img {
+        position: absolute;
+        margin-right: 0;
+        margin-left: 8.3%;
+        margin-top: -220px;
         height: 210px;
         width: 295px; }
       .stories .left-stories .s5 .numbered-square {
         z-index: 4;
         position: absolute;
         top: 10px;
-        left: 92.8%;
+        left: 92.4%;
         height: 50px;
         width: 50px;
         background-color: white; }
       .stories .left-stories .s5 .white {
         position: absolute;
-        margin-left: 21%;
+        margin-left: 20.8%;
+        margin-right: 0;
         margin-top: 10px;
         height: 510px;
         width: 560px;
         background-color: white; }
       .stories .left-stories .s5 img {
-        margin-left: 21%;
+        margin-right: 0;
+        margin-left: 20.1%;
         margin-top: 10px;
         height: 510px;
         width: 560px; }
@@ -379,15 +394,24 @@ p {
       .stories .right-stories .s2 .numbered-square {
         z-index: 4;
         position: absolute;
-        top: 449px;
-        right: 93.1%;
-        left: 3;
+        top: 0px;
+        right: 92.1%;
+        left: 3px;
         height: 50px;
         width: 50px;
         background-color: white; }
-      .stories .right-stories .s2 img {
-        margin-left: -56%;
+      .stories .right-stories .s2 .white {
+        position: static;
+        margin-left: 0.5%;
+        margin-right: 0;
         margin-top: 450px;
+        height: 210px;
+        width: 295px;
+        background-color: white; }
+      .stories .right-stories .s2 img {
+        margin-right: 0px;
+        margin-left: -57.6%;
+        margin-top: -220px;
         height: 210px;
         width: 295px; }
       .stories .right-stories .s3 .numbered-square {
@@ -476,8 +500,8 @@ p {
       margin-top: 0px;
       margin-bottom: 0px;
       position: absolute;
-      top: 530px;
-      left: 50px;
+      top: 70px;
+      left: 51px;
       height: 78px;
       width: 200px; }
 

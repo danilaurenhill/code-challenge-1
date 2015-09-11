@@ -63,12 +63,14 @@ must be behind the stories(use z-index)*/
       .white {
         position: absolute;
         margin-left: 21%;
+        margin-right: 0;
         margin-top: 250px;
         height: 510px;
         width: 560px;
         background-color: white;
       }
       img {
+        margin-right: 0;
         margin-left: 21%;
         margin-top: 250px;
         height: 510px;
@@ -79,15 +81,26 @@ must be behind the stories(use z-index)*/
       .numbered-square {
         z-index: 4;
         position: absolute;
-        top: 10px;
-        left: 93.09%;
+        top: 0px;
+        left: 92.9%;
         height: 50px;
         width: 50px;
         background-color: white;
       }
-      img {
-        margin-left: 58.5%;
+      .white {
+        position: static;
+        margin-left: 58.2%;
+        margin-right: 0;
         margin-top: 10px;
+        height: 210px;
+        width: 295px;
+        background-color: white;
+      }
+      img {
+        position: absolute;
+        margin-right: 0;
+        margin-left: 8.3%;
+        margin-top: -220px;
         height: 210px;
         width: 295px;
       }
@@ -97,21 +110,23 @@ must be behind the stories(use z-index)*/
         z-index: 4;
         position: absolute;
         top: 10px;
-        left: 92.8%;
+        left: 92.4%;
         height: 50px;
         width: 50px;
         background-color: white;
       }
       .white {
         position: absolute;
-        margin-left: 21%;
+        margin-left: 20.8%;
+        margin-right: 0;
         margin-top: 10px;
         height: 510px;
         width: 560px;
         background-color: white;
       }
       img {
-        margin-left: 21%;
+        margin-right: 0;
+        margin-left: 20.1%;
         margin-top: 10px;
         height: 510px;
         width: 560px;
@@ -128,16 +143,26 @@ must be behind the stories(use z-index)*/
       .numbered-square {
         z-index: 4;
         position: absolute;
-        top: 449px;
-        right: 93.1%;
-        left: 3;
+        top: 0px;
+        right: 92.1%;
+        left: 3px;
         height: 50px;
         width: 50px;
         background-color: white;
       }
-      img {
-        margin-left: -56%;
+      .white {
+        position: static;
+        margin-left: 0.5%;
+        margin-right: 0;
         margin-top: 450px;
+        height: 210px;
+        width: 295px;
+        background-color: white;
+      }
+      img {
+        margin-right: 0px;
+        margin-left: -57.6%;
+        margin-top: -220px;
         height: 210px;
         width: 295px;
       }
