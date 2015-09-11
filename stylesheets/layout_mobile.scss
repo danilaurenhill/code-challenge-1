@@ -47,14 +47,27 @@
         position: absolute;
         top: 0;
         margin-right:0;
-        left: 71.2%;
+        left: 72.4%;
         right: 40%;
         height: 50px;
         width: 50px;
         background-color: white;
       }
+      .white {
+        position: static;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 10px;
+        margin-top: 0px;
+        height: 208px;
+        width: 280px;
+        background-color: white;
+      }
       img {
-        height: 210px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: -218px;
+        height: 208px;
         width: 280px;
       }
     }
@@ -63,12 +76,25 @@
         z-index: 4;
         position: absolute;
         top: 0px;
-        left: 71.2%;
+        left: 72.4%;
         height: 50px;
         width: 50px;
         background-color: white;
       }
+      .white {
+        position: static;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 10px;
+        margin-top: 0px;
+        height: 208px;
+        width: 280px;
+        background-color: white;
+      }
       img {
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: -218px;
         height: 210px;
         width: 280px;
       }
@@ -78,12 +104,25 @@
         z-index: 4;
         position: absolute;
         top: 0px;
-        left: 71.2%;
+        left: 72.4%;
         height: 50px;
         width: 50px;
         background-color: white;
       }
+      .white {
+        position: static;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 10px;
+        margin-top: 0px;
+        height: 208px;
+        width: 280px;
+        background-color: white;
+      }
       img {
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: -218px;
         height: 210px;
         width: 280px;
       }
@@ -94,13 +133,26 @@
       .numbered-square {
         z-index: 4;
         position: absolute;
-        top: 720px;
-        left: 71.2%;
+        top: 0px;
+        left: 72.4%;
         height: 50px;
         width: 50px;
         background-color: white;
       }
+      .white {
+        position: static;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 10px;
+        margin-top: 0px;
+        height: 208px;
+        width: 280px;
+        background-color: white;
+      }
       img {
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: -218px;
         height: 210px;
         width: 280px;
       }
@@ -110,12 +162,25 @@
         z-index: 4;
         position: absolute;
         top: 0px;
-        left: 71.2%;
+        left: 72.4%;
         height: 50px;
         width: 50px;
         background-color: white;
       }
+      .white {
+        position: static;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 10px;
+        margin-top: 0px;
+        height: 208px;
+        width: 280px;
+        background-color: white;
+      }
       img {
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: -218px;
         height: 210px;
         width: 280px;
       }
@@ -127,10 +192,11 @@
   }
 }
 .ad {
-  text-align: center;
+  /*text-align: center;*/
   img {
+    margin: 20px;
+    margin-left: 5px;
     width: 300px;
     height: 200px;
-    margin: 20px;
   }
 }

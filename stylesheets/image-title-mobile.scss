@@ -28,7 +28,6 @@
     margin-top: -155px;
     margin-bottom: 118px;
     font-size: 18px;
-    z-index: 5;
   }
 }
 .s5 {
@@ -45,6 +44,22 @@
     margin-bottom: 86px;
     text-align: center;
     font-size: 20px;
+  }
+}
+.s2 {
+  position: relative;
+  img {
+    opacity: 1;
+  }
+  img:hover {
+    opacity: 0.4;
+  }
+  h3 {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -145px;
+    margin-bottom: 118px;
+    font-size: 18px;
   }
 }
 .s3 {

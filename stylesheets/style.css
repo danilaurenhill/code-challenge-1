@@ -79,56 +79,116 @@ p {
       position: absolute;
       top: 0;
       margin-right: 0;
-      left: 71.2%;
+      left: 72.4%;
       right: 40%;
       height: 50px;
       width: 50px;
       background-color: white; }
+    .stories .left-stories .s1 .white {
+      position: static;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 10px;
+      margin-top: 0px;
+      height: 208px;
+      width: 280px;
+      background-color: white; }
     .stories .left-stories .s1 img {
-      height: 210px;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: -218px;
+      height: 208px;
       width: 280px; }
   .stories .left-stories .s4 .numbered-square {
     z-index: 4;
     position: absolute;
     top: 0px;
-    left: 71.2%;
+    left: 72.4%;
     height: 50px;
     width: 50px;
     background-color: white; }
+  .stories .left-stories .s4 .white {
+    position: static;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    height: 208px;
+    width: 280px;
+    background-color: white; }
   .stories .left-stories .s4 img {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -218px;
     height: 210px;
     width: 280px; }
   .stories .left-stories .s5 .numbered-square {
     z-index: 4;
     position: absolute;
     top: 0px;
-    left: 71.2%;
+    left: 72.4%;
     height: 50px;
     width: 50px;
     background-color: white; }
+  .stories .left-stories .s5 .white {
+    position: static;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    height: 208px;
+    width: 280px;
+    background-color: white; }
   .stories .left-stories .s5 img {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -218px;
     height: 210px;
     width: 280px; }
   .stories .right-stories .s2 .numbered-square {
     z-index: 4;
     position: absolute;
-    top: 720px;
-    left: 71.2%;
+    top: 0px;
+    left: 72.4%;
     height: 50px;
     width: 50px;
     background-color: white; }
+  .stories .right-stories .s2 .white {
+    position: static;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    height: 208px;
+    width: 280px;
+    background-color: white; }
   .stories .right-stories .s2 img {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -218px;
     height: 210px;
     width: 280px; }
   .stories .right-stories .s3 .numbered-square {
     z-index: 4;
     position: absolute;
     top: 0px;
-    left: 71.2%;
+    left: 72.4%;
     height: 50px;
     width: 50px;
     background-color: white; }
+  .stories .right-stories .s3 .white {
+    position: static;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    height: 208px;
+    width: 280px;
+    background-color: white; }
   .stories .right-stories .s3 img {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -218px;
     height: 210px;
     width: 280px; }
   .stories img {
@@ -136,11 +196,12 @@ p {
     margin-bottom: 10px; }
 
 .ad {
-  text-align: center; }
+  /*text-align: center;*/ }
   .ad img {
+    margin: 20px;
+    margin-left: 5px;
     width: 300px;
-    height: 200px;
-    margin: 20px; }
+    height: 200px; }
 
 .s1 {
   position: relative; }
@@ -166,8 +227,7 @@ p {
     margin-left: auto;
     margin-top: -155px;
     margin-bottom: 118px;
-    font-size: 18px;
-    z-index: 5; }
+    font-size: 18px; }
 
 .s5 {
   position: relative; }
@@ -181,6 +241,19 @@ p {
     margin-bottom: 86px;
     text-align: center;
     font-size: 20px; }
+
+.s2 {
+  position: relative; }
+  .s2 img {
+    opacity: 1; }
+  .s2 img:hover {
+    opacity: 0.4; }
+  .s2 h3 {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -145px;
+    margin-bottom: 118px;
+    font-size: 18px; }
 
 .s3 {
   position: relative; }
@@ -239,9 +312,9 @@ p {
     position: relative;
     z-index: 2; }
     .stories .left-stories {
+      position: absolute;
       width: 50%;
       float: left;
-      position: absolute;
       margin-top: -275px; }
       .stories .left-stories .s1 .numbered-square {
         /*make numbered-square show white above the transparent image*/
@@ -252,6 +325,13 @@ p {
         height: 50px;
         width: 50px;
         background-color: white; }
+      .stories .left-stories .s1 .white {
+        position: absolute;
+        margin-left: 21%;
+        margin-top: 250px;
+        height: 510px;
+        width: 560px;
+        background-color: white; }
       .stories .left-stories .s1 img {
         margin-left: 21%;
         margin-top: 250px;
@@ -261,7 +341,7 @@ p {
         z-index: 4;
         position: absolute;
         top: 10px;
-        left: 92.95%;
+        left: 93.09%;
         height: 50px;
         width: 50px;
         background-color: white; }
@@ -274,9 +354,16 @@ p {
         z-index: 4;
         position: absolute;
         top: 10px;
-        left: 92.65%;
+        left: 92.8%;
         height: 50px;
         width: 50px;
+        background-color: white; }
+      .stories .left-stories .s5 .white {
+        position: absolute;
+        margin-left: 21%;
+        margin-top: 10px;
+        height: 510px;
+        width: 560px;
         background-color: white; }
       .stories .left-stories .s5 img {
         margin-left: 21%;
@@ -299,21 +386,29 @@ p {
         width: 50px;
         background-color: white; }
       .stories .right-stories .s2 img {
-        margin-left: -61%;
+        margin-left: -56%;
         margin-top: 450px;
         height: 210px;
-        width: 260px; }
+        width: 295px; }
       .stories .right-stories .s3 .numbered-square {
         z-index: 4;
         position: absolute;
         top: 10px;
         right: 93.1%;
-        left: 3.5;
+        left: 2.5px;
         height: 50px;
         width: 50px;
         background-color: white; }
+      .stories .right-stories .s3 .white {
+        position: absolute;
+        margin-left: 0.5%;
+        margin-top: 10px;
+        height: 510px;
+        width: 560px;
+        background-color: white; }
       .stories .right-stories .s3 img {
-        margin-left: -19%;
+        position: absolute;
+        margin-left: -49.5%;
         margin-top: 10px;
         height: 510px;
         width: 560px; }
@@ -369,6 +464,22 @@ p {
       top: 165px;
       left: 220px;
       font-size: 44px; }
+
+  .s2 {
+    position: relative; }
+    .s2 img {
+      opacity: 0.4;
+      filter: alpha(opacity=40); }
+    .s2 img:hover {
+      opacity: 1; }
+    .s2 h3 {
+      margin-top: 0px;
+      margin-bottom: 0px;
+      position: absolute;
+      top: 530px;
+      left: 50px;
+      height: 78px;
+      width: 200px; }
 
   .s3 {
     position: relative; }
