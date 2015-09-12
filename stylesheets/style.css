@@ -206,7 +206,7 @@ p {
 .s1 {
   position: relative; }
   .s1 img {
-    opacity: 0.4;
+    opacity: 0.3;
     filter: alpha(opacity=40); }
   .s1 img:hover {
     opacity: 1; }
@@ -233,7 +233,7 @@ p {
 .s5 {
   position: relative; }
   .s5 img {
-    opacity: 0.4;
+    opacity: 0.3;
     filter: alpha(opacity=40); }
   .s5 img:hover {
     opacity: 1; }
@@ -259,7 +259,7 @@ p {
 .s3 {
   position: relative; }
   .s3 img {
-    opacity: 0.4;
+    opacity: 0.3;
     filter: alpha(opacity=40); }
   .s3 img:hover {
     opacity: 1; }
@@ -335,8 +335,9 @@ p {
         width: 560px;
         background-color: white; }
       .stories .left-stories .s1 img {
+        position: absolute;
         margin-right: 0;
-        margin-left: 21%;
+        margin-left: -29%;
         margin-top: 250px;
         height: 510px;
         width: 560px; }
@@ -352,7 +353,7 @@ p {
         position: static;
         margin-left: 58.2%;
         margin-right: 0;
-        margin-top: 10px;
+        margin-top: 782px;
         height: 210px;
         width: 295px;
         background-color: white; }
@@ -375,13 +376,14 @@ p {
         position: absolute;
         margin-left: 20.8%;
         margin-right: 0;
-        margin-top: 10px;
+        margin-top: 316px;
         height: 510px;
         width: 560px;
         background-color: white; }
       .stories .left-stories .s5 img {
+        position: absolute;
         margin-right: 0;
-        margin-left: 20.1%;
+        margin-left: -29.3%;
         margin-top: 10px;
         height: 510px;
         width: 560px; }
@@ -450,7 +452,7 @@ p {
   .s1 {
     position: relative; }
     .s1 img {
-      opacity: 0.4; }
+      opacity: 0.3; }
     .s1 img:hover {
       opacity: 1; }
     .s1 h2 {
@@ -472,20 +474,20 @@ p {
       margin-bottom: 0px;
       position: absolute;
       top: 80px;
-      left: 465px; }
+      left: 453px;
+      z-index: 5; }
 
   .s5 {
     position: relative; }
     .s5 img {
-      opacity: 0.4;
-      filter: alpha(opacity=40); }
+      opacity: 0.3; }
     .s5 img:hover {
       opacity: 1; }
     .s5 h2 {
       margin-top: 0px;
       margin-bottom: 0px;
       position: absolute;
-      top: 165px;
+      top: 465px;
       left: 220px;
       font-size: 44px; }
 
@@ -500,24 +502,23 @@ p {
       margin-top: 0px;
       margin-bottom: 0px;
       position: absolute;
-      top: 70px;
-      left: 51px;
-      height: 78px;
-      width: 200px; }
+      top: 90px;
+      left: 40px;
+      height: 54px;
+      width: 220px; }
 
   .s3 {
     position: relative; }
     .s3 img {
-      opacity: 0.4;
-      filter: alpha(opacity=40); }
+      opacity: 0.3; }
     .s3 img:hover {
       opacity: 1; }
     .s3 h2 {
       margin-top: 0px;
       margin-bottom: 0px;
       position: absolute;
-      top: 185px;
-      left: 3px;
+      top: 145px;
+      left: 90px;
       font-size: 44px; } }
 
 /*# sourceMappingURL=style.css.map */
