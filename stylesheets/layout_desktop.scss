@@ -64,7 +64,7 @@ must be behind the stories(use z-index)*/
         position: absolute;
         margin-left: 21%;
         margin-right: 0;
-        margin-top: 250px;
+        margin-top: 249px;
         height: 510px;
         width: 560px;
         background-color: white;
@@ -90,7 +90,7 @@ must be behind the stories(use z-index)*/
       }
       .white {
         position: static;
-        margin-left: 58.2%;
+        margin-left: 58.3%;
         margin-right: 0;
         margin-top: 782px;
         height: 210px;
@@ -183,7 +183,7 @@ must be behind the stories(use z-index)*/
       .white {
         position: absolute;
         margin-left: 0.5%;
-        margin-top: 10px;
+        margin-top: -65px;
         height: 510px;
         width: 560px;
         background-color: white;
@@ -191,7 +191,7 @@ must be behind the stories(use z-index)*/
       img {
         position: absolute;
         margin-left: -49.5%;
-        margin-top: 10px;
+        margin-top: -65px;
         height: 510px;
         width: 560px;
       }
@@ -200,6 +200,7 @@ must be behind the stories(use z-index)*/
   .ad {
     float:right;
     img {
+      margin-top: -70px;
       position: absolute;
       float: right;
       top: -120px;
