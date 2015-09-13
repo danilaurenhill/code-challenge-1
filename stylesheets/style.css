@@ -367,24 +367,24 @@ p {
       .stories .left-stories .s5 .numbered-square {
         z-index: 4;
         position: absolute;
-        top: 10px;
+        top: -2px;
         left: 92.4%;
         height: 50px;
         width: 50px;
         background-color: white; }
       .stories .left-stories .s5 .white {
-        position: absolute;
+        position: static;
         margin-left: 20.8%;
         margin-right: 0;
-        margin-top: 316px;
+        margin-top: 26px;
         height: 510px;
         width: 560px;
         background-color: white; }
       .stories .left-stories .s5 img {
         position: absolute;
         margin-right: 0;
-        margin-left: -29.3%;
-        margin-top: 10px;
+        margin-left: -29.2%;
+        margin-top: -522px;
         height: 510px;
         width: 560px; }
     .stories .right-stories {
