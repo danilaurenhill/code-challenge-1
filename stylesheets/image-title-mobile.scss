@@ -3,7 +3,6 @@
   .connector {
     img {
       opacity: 0.3;
-      filter: alpha(opacity=40);
     }
     h2 {
       margin-left: 0px;
@@ -74,7 +73,6 @@
   .connector {
     img {
       opacity: 0.4;
-      filter: alpha(opacity=40);
     }
     h2 {
       margin-top: -255px;
@@ -110,7 +108,7 @@
       opacity: 1;
     }
     h3 {
-      /*position: absolute;*/
+      position: absolute;
       margin-left: 95px;
       margin-top: -230px;
       margin-bottom: 80px;
@@ -140,24 +138,11 @@
   position: relative;
   .connector {
     img {
-      opacity: 0.3;
-      filter: alpha(opacity=40);
-    }
-    h2 {
-      margin-left: 5px;
-      margin-top: -260px;
-      margin-bottom: 90px;
-      text-align: center;
-      font-size: 20px;
-    }
-  }
-  .connector:hover {
-    img {
       opacity: 1;
     }
     h2 {
       position: absolute;
-      margin-top: -260px;
+      margin-top: -265px;
       margin-bottom: 130px;
       left: 80px;
       font-size: 20px;
@@ -165,6 +150,23 @@
       color: white;
       padding: 5px;
       background-color: black;
+      height: 125px;
+      width: 230px;
+    }
+  }
+  .connector:hover {
+    img {
+      opacity: 0.3;
+    }
+    h2 {
+      margin-left: 0px;
+      margin-top: -265px;
+      margin-bottom: 80px;
+      text-align: center;
+      font-size: 20px;
+      z-index: 5;
+      color: black;
+      background-color: inherit;
       height: 125px;
       width: 230px;
     }

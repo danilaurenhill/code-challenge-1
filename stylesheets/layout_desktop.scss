@@ -23,7 +23,7 @@ must be behind the stories(use z-index)*/
   .parallelogram { 
     position: absolute;
     top: 125px;
-    width: 16.59%;
+    width: 16.63%;
     height: 500px;
     -webkit-transform: skew(20deg);
     -moz-transform: skew(20deg);
@@ -46,7 +46,7 @@ must be behind the stories(use z-index)*/
   z-index: 2;
   .left-stories {
     position: absolute;
-    width: 50%;
+    width: 47%;
     float: left;
     margin-top: -275px;
     .s1 {
@@ -55,7 +55,7 @@ must be behind the stories(use z-index)*/
         z-index: 4;
         position: absolute;
         top: 250px;
-        left: 92.65%;
+        left: 99.2%;
         height: 50px;
         width: 50px;
         background-color: white;
@@ -83,14 +83,14 @@ must be behind the stories(use z-index)*/
         z-index: 4;
         position: absolute;
         top: 0px;
-        left: 92.9%;
+        left: 99.2%;
         height: 50px;
         width: 50px;
         background-color: white;
       }
       .white {
         position: static;
-        margin-left: 58.3%;
+        margin-left: 61.6%;
         margin-right: 0;
         margin-top: 782px;
         height: 210px;
@@ -100,7 +100,7 @@ must be behind the stories(use z-index)*/
       img {
         position: absolute;
         margin-right: 0;
-        margin-left: 8.3%;
+        margin-left: 11.6%;
         margin-top: -220px;
         height: 210px;
         width: 295px;
@@ -111,7 +111,7 @@ must be behind the stories(use z-index)*/
         z-index: 4;
         position: absolute;
         top: -2px;
-        left: 92.4%;
+        left: 99.2%;
         height: 50px;
         width: 50px;
         background-color: white;
@@ -137,7 +137,7 @@ must be behind the stories(use z-index)*/
   }
   .right-stories {
     position: absolute;
-    left: 51%;
+    left: 51.6%;
     width: 50%;
     float: right;
     margin-top: -275px;
@@ -146,8 +146,8 @@ must be behind the stories(use z-index)*/
         z-index: 4;
         position: absolute;
         top: 0px;
-        right: 92.1%;
-        left: 3px;
+        right: 93.1%;
+        left: 2.5px;
         height: 50px;
         width: 50px;
         background-color: white;
@@ -163,17 +163,17 @@ must be behind the stories(use z-index)*/
       }
       img {
         margin-right: 0px;
-        margin-left: -57.6%;
+        margin-left: -56.2%;
         margin-top: -220px;
         height: 210px;
-        width: 295px;
+        width: 297px;
       }
     }
     .s3 {
       .numbered-square {
         z-index: 4;
         position: absolute;
-        top: 10px;
+        top: -65px;
         right: 93.1%;
         left: 2.5px;
         height: 50px;
@@ -200,11 +200,11 @@ must be behind the stories(use z-index)*/
   .ad {
     float:right;
     img {
-      margin-top: -70px;
+      margin-top: 0px;
       position: absolute;
       float: right;
       top: -120px;
-      left: 1071px;
+      left: 1047px;
       width: 340px;
       height: 240px;
       border:20px solid white;
